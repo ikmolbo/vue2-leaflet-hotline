@@ -1,0 +1,43 @@
+{
+  "author": {
+    "name": "Ilya Oblomov"
+  },
+  "bugs": {
+    "url": "https://github.com/ikmolbo/vue2-leaflet-hotline/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "leaflet": "^1.3.1",
+    "leaflet-hotline": "^0.4.0",
+    "vue2-leaflet": "^1.0.2"
+  },
+  "deprecated": false,
+  "description": "Create coloured gradients along polylines using Vue and Leaflet.",
+  "devDependencies": {
+    "babel-preset-env": "^1.6.0",
+    "eslint-plugin-html": "^4.0.3",
+    "vue-cli": "~2.8.2",
+    "webpack-node-externals": "^1.5.4"
+  },
+  "homepage": "https://github.com/ikmolbo/vue2-leaflet-hotline#readme",
+  "keywords": [
+    "Vue",
+    "Leaflet",
+    "gradient",
+    "hotline",
+    "polyline"
+  ],
+  "license": "MIT",
+  "main": "dist/Vue2LeafletHotline.js",
+  "name": "vue2-leaflet-hotline",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ikmolbo/vue2-leaflet-hotline.git"
+  },
+  "scripts": {
+    "build": "vue build Vue2LeafletHotline.vue --prod --lib --config build.config.js",
+    "example": "vue build example.vue",
+    "example-geojson": "vue build example-geojson.vue"
+  },
+  "version": "1.0.1"
+}
