@@ -16,7 +16,7 @@
   "devDependencies": {
     "babel-preset-env": "^1.6.0",
     "eslint-plugin-html": "^4.0.3",
-    "vue-cli": "~2.8.2",
+    "vue-cli": "~2.9.6",
     "webpack-node-externals": "^1.5.4"
   },
   "homepage": "https://github.com/ikmolbo/vue2-leaflet-hotline#readme",
